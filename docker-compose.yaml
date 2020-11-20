@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  test_api:
+    image: test_api
+    restart: unless-stopped
+    container_name: test_api
+    build: ./
+    ports:
+      - 5000:5000
+
+      
+networks:
+  default:
+    external:
+      name: my-net

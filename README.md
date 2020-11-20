@@ -23,6 +23,13 @@ https://github.com/nvoevodin/LetsEncrypt_Documentation.git
 
 It is a hello world server running on port 5000
 
+There is an option to dockerize it. If you have docker and docker-compose installed, run:
+```
+docker-compose up
+```
+
+the container will expose the same hello world server running on port 5000
+
 
 ```
 git clone https://github.com/nvoevodin/LetsEncrypt_Documentation.git #clone
